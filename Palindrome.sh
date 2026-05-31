@@ -17,21 +17,16 @@ else
     echo "$input -> Not a Palindrome"
 fi
 
-# chmod +x palindrome.sh 
+# chmod +x palindrome.sh --> excute permission for the script
+
+
+#input: 
+#-----
 
 # ./palindrome.sh "madam"
+# ./palindrome.sh "12321"
+# ./palindrome.sh "hello
 
-#rev: command not found
-
-#which rev and rev --version --> to check if rev command is available in the system and its version
-
-# Install rev on Amazon Linux / RHEL / CentOS:
-
-# sudo dnf install util-linux -y
-
-# chmod +x palindrome.sh
-
-# ./palindrome.sh "madam"
 
 #output
 #-------
