@@ -16,9 +16,12 @@ echo "Generated Password: $password"
 
 # chmod +x password_generator.sh - excute permission for the script
 
-# ./password_generator.sh 12 - to run the script with the desired password length
+# ./password_generator.sh 12 --> 12 IS THE LENGTH OF THE PASSWORD TO BE GENERATED
 
-#output
-#-------
-
+#OUTPUT
 #Generated Password: aB3$eFgH1@2
+
+# ./password_generator.sh 5 --> 5 IS THE LENGTH OF THE PASSWORD TO BE GENERATED
+
+# OUTPUT
+# Generated Password: 9@aB1
