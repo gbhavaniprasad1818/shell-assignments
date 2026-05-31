@@ -47,6 +47,61 @@ then
 fi
 
 
-# chmod +x count-lines-words-chars.sh --> grant execute permission for the script
+# chmod +x count-lines-words-chars.sh --> Give Execute Permission
 
 # ./count-lines-words-chars.sh filename.txt --> replace filename with the name of the file you want to analyze
+
+#output
+#-------
+#File: exampletext.txt
+#Lines      : 46
+#Words      : 40
+#Characters : 113
+
+# Edge Cases
+
+ # Non-existent File
+ #-------------------
+
+#./count-lines-words-chars.sh abc.txt
+# output --> Error: File does not exist.
+
+#Permission Denied
+#.................
+
+# chmod 000 sample.txt
+#./count-lines-words-chars.sh sample.txt
+
+# output --> Error: Permission denied.
+
+#empty file
+#---------
+
+# touch empty.txt
+# ./count-lines-words-chars.sh empty.txt
+
+# output
+#-------
+
+#File: empty.txt
+# Lines      : 0
+# Words      : 0
+# Characters : 0
+# Note: The file is empty.
+
+
+# One-Line Alternative
+#If you only need the counts and don't need error handling:
+
+# wc -lwm sample.txt   --> sample.txt will replace with your text file
+
+# output
+
+# 46 40 113 sample.txt
+
+# where: 
+
+#-l = lines
+#-w = words
+#-m = characters
+
