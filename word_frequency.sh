@@ -19,7 +19,14 @@ cat "$file" \
 
 # chmod +x word_frequency.sh - excute permission for the script
 
-# ./word_frequency.sh filename.txt - to run the script with a text file to find the top 5 most frequent words
+# ./word_frequency.sh filename.txt - replace filename with the your filename
+
 
 # output
 #-------
+#    12 2
+#     4 1
+#     3 52
+#     3 4
+#     3 12
+
