@@ -1,0 +1,3 @@
+===== ERROR LINES REPORT =====
+ERROR Database connection failed
+ERROR Invalid credentials

@@ -1,0 +1,6 @@
+INFO Application started
+ERROR Database connection failed
+INFO User logged in
+ERROR Invalid credentials
+WARNING Disk usage high
+ERROR Timeout occurred
